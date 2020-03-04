@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>个人博客</title>
+  <icon>http://yoursite.com/icon.png</icon>
+  <subtitle>个人技术博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-04T05:26:29.359Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Yan Wei</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP连接MySQL的方式</title>
+    <link href="http://yoursite.com/2020/03/03/PHP%E8%BF%9E%E6%8E%A5MySQL%E7%9A%84%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2020/03/03/PHP%E8%BF%9E%E6%8E%A5MySQL%E7%9A%84%E6%96%B9%E5%BC%8F/</id>
+    <published>2020-03-03T14:43:00.000Z</published>
+    <updated>2020-03-04T05:26:29.359Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="PHP" scheme="http://yoursite.com/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
+    
+  </entry>
+  
+</feed>

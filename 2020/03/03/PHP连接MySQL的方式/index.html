@@ -68,11 +68,15 @@
 
 
 
-  <meta name="keywords" content="PHP,MySQL," />
+  <meta name="keywords" content="PHP," />
 
 
 
 
+  
+
+
+  <link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml" />
 
 
 
@@ -86,9 +90,9 @@
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="1PHP连接MySQL的方式有三种:MySQL(面向过程)，MySQLi(面向过程，面向对象)，PDO（面向对象）;下面具体介绍三种的优缺点。 MySQL扩展(面向过程)1是PHP早期的一个面向过程的MYSQL扩展接口，针对MYSQL4.1.3之前更古老的版本。随着发展就后面衍生出了我们要说的第二种扩展MySQLi 示例代码1234567891011121314151617181920&lt;?p">
 <meta property="article:published_time" content="2020-03-03T14:43:00.000Z">
-<meta property="article:modified_time" content="2020-03-04T02:24:06.181Z">
+<meta property="article:modified_time" content="2020-03-04T05:26:29.359Z">
 <meta property="article:author" content="Yan Wei">
-<meta property="article:tag" content="PHP,MySQL">
+<meta property="article:tag" content="PHP">
 <meta name="twitter:card" content="summary">
 
 
@@ -131,6 +135,16 @@
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f3b1c3a4e49c734e8e5f826c30791ac1";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -199,6 +213,46 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -237,7 +291,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yan Wei">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/uploads/yanwei.jpeg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -342,7 +396,39 @@
     
 
     
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/wechat-qcode.jpg" alt="Yan Wei wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎您扫一扫上面的微信公众号，订阅我的博客！</div>
+</div>
 
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/uploads/tx.jpeg" alt="Yan Wei 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -351,7 +437,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/PHP-MySQL/" rel="tag"># PHP,MySQL</a>
+            <a href="/tags/PHP/" rel="tag"># PHP</a>
           
         </div>
       
@@ -422,8 +508,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/yanwei.jpeg"
+                alt="Yan Wei" />
+            
               <p class="site-author-name" itemprop="name">Yan Wei</p>
-              <p class="site-description motion-element" itemprop="description">闫伟的个人技术博客</p>
+              <p class="site-description motion-element" itemprop="description">技术无边界，学习无止境！</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -443,10 +533,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -454,17 +544,46 @@
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/weekeight0821" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/yanwei0821" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-globe"></i>微博</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/xiao-mu-15-21-57" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-globe"></i>知乎</a>
+                  </span>
+                
+            </div>
           
 
           
