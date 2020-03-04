@@ -232,6 +232,129 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/03/PHP%E8%BF%9E%E6%8E%A5MySQL%E7%9A%84%E6%96%B9%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yan Wei">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/03/03/PHP%E8%BF%9E%E6%8E%A5MySQL%E7%9A%84%E6%96%B9%E5%BC%8F/" itemprop="url">PHP连接MySQL的方式</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-03T22:43:39+08:00">
+                2020-03-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="MySQL扩展-面向过程"><a href="#MySQL扩展-面向过程" class="headerlink" title="MySQL扩展(面向过程)"></a>MySQL扩展(面向过程)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">是PHP早期的一个面向过程的MYSQL扩展接口，针对MYSQL4.1.3之前更古老的版本。随着发展就后面衍生出了我们要说的第二种扩展MySQLi</span><br></pre></td></tr></table></figure>
+<p>{％codeblock [PHP操作MySQL扩展示例代码] [lang：php]％}<br> //连接MySQL数据库<br> $con = mysql_connect(“数据库连接地址”,”数据库用户名”,”数据库管理密码”));<br> //选择数据库<br> $select_db = mysql_select_db(‘数据库名称’);<br> if(!$select_db) {<br>  die(“could not connect to the db:\n” .  mysql_error());<br> }<br> //查询<br> $sql = ‘select * from user’;<br> $res = mysql_query($sql);<br> if(!$res) {<br>   die(“could get the res:\n” . mysql_error());<br> }</p>
+<p> while(mysql_fetch_assoc($res)) {<br>    print_r($row);<br> }<br> //关闭MySQL连接<br> mysql_close($con);</p>
+<p>{％endcodeblock％}</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/03/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -397,7 +520,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -405,6 +528,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
